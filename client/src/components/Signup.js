@@ -141,16 +141,18 @@ const Signup = () => {
       <h3 className="separator heading">
         <span>or</span>
       </h3>
-      <input
-        type="email"
-        className="form-control btn-email mt-3"
-        id="exampleFormControlInput1"
-        placeholder="email"
-      />
       <button className="btn btn-primary btn-sign mt-4" type="button">
-        {" "}
-        Email me a sign in code
+        <div>
+          <a
+            href="https://freecode-9b0699.login.mojoauth.com/?env=test&redirect_uri=localhost:3000/about"
+            className="btn-sign"
+          >
+            {" "}
+            Email me a sign in code{" "}
+          </a>
+        </div>
       </button>
+
       <div className="legal mt-5">
         <p>
           freeCodeCamp is free and your account is private by default. We use
